@@ -791,66 +791,66 @@ function MainPage() {
                 </div> */}
               </div>
             </div>
-            <div class="pt-3 grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="pt-3 grid grid-cols-2 md:grid-cols-3 gap-4">
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
                   alt=""
                 />
@@ -861,7 +861,7 @@ function MainPage() {
       </main>
 
       {/* Footer */}
-      <footer className="relative mx-auto mt-32 max-w-7xl px-6 lg:px-8">
+      {/* <footer className="relative mx-auto mt-32 max-w-7xl px-6 lg:px-8">
         <div className="border-t border-gray-900/10 py-16 sm:py-24 lg:py-32">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <img
@@ -945,7 +945,7 @@ function MainPage() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
