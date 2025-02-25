@@ -106,7 +106,7 @@ function Hero() {
 
       <div className="relative">
         <div className="mx-auto max-w-7xl">
-          <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+          <div className="relative z-10 sm:pt-14 lg:w-full lg:max-w-2xl">
             <svg
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
