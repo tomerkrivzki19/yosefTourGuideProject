@@ -7,6 +7,9 @@ import MainPage from "./components/MainPage";
 import Nav from "./components/Nav";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
+import Store from "./components/Store";
+import Blog from "./components/Blog";
+import BlogPage from "./components/BlogPage";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
 
           <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactMe />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:blogId" element={<BlogPage />} />
         </Routes>
         <Footer />
       </Router>
