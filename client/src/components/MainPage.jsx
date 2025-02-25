@@ -606,7 +606,7 @@ function MainPage() {
         </div> */}
 
         {/* Pricing section */}
-        <div className="py-24 sm:pt-48">
+        <div className="py-24 sm:pt-48" id="pricing">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:text-center">
               <h2 className="text-base/7 font-semibold text-indigo-600">
@@ -765,7 +765,7 @@ function MainPage() {
           </div>
         </div> */}
         {/* new cta section  */}
-        <div className="bg-indigo-100">
+        {/* <div className="bg-indigo-100">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
             <h2 className="max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
               Ready to dive in? <br />
@@ -783,16 +783,39 @@ function MainPage() {
               </a>
             </div>
           </div>
+        </div> */}
+        <div className="bg-indigo-100" dir="rtl">
+          <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
+            <h2 className="max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+              מוכן לצאת להרפתקה? <br />
+              הזמינו את הסיור שלכם עם יוסף היום.
+            </h2>
+            <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:shrink-0">
+              <a
+                href="#pricing"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                הזמינו סיור
+              </a>
+              <a href="/blog" className="text-sm/6 font-semibold text-gray-900">
+                לקרוא על המקומות בבלוג <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
         </div>
+
         {/*images section  */}
         {/* <div className="bg-indigo-200/25"> */}
         <div className="bg-white">
           <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-              <h2 className="mx-auto max-w-md text-pretty text-center text-3xl font-bold tracking-tight text-indigo-900 lg:max-w-xl lg:text-left">
+              {/* <h2 className="mx-auto max-w-md text-pretty text-center text-3xl font-bold tracking-tight text-indigo-900 lg:max-w-xl lg:text-left">
                 Trusted by the world’s most innovative teams
+              </h2> */}
+              <h2 className="mx-auto max-w-md text-pretty text-center text-3xl font-bold tracking-tight text-indigo-900 lg:max-w-xl lg:text-left">
+                הצטרפו למטיילים המרוצים שלנו שחוו את הטיולים הכי מיוחדים
               </h2>
-              <div className="mt-8 flow-root self-center lg:mt-0">
+              <div className="mt-0 flow-root self-center lg:mt-0">
                 {/* LOGO SECTIONS  */}
                 {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 p-4">
                   <div className="flex justify-center">
@@ -826,7 +849,7 @@ function MainPage() {
                 </div> */}
               </div>
             </div>
-            <div className="pt-3 grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="pt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
               <div>
                 <img
                   className="h-auto max-w-full rounded-lg"

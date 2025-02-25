@@ -18,18 +18,21 @@ const testimonials = [
 const posts = [
   {
     id: 1,
-    title: "Boost your conversion rate",
+    title: "חוויותיי בשביל ישראל",
     href: "/blog/1",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
+      // "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      "https://images1.ynet.co.il/PicServer5/2018/03/12/8400250/8400223099097980717no.jpg",
+
+    date: "אוג' 31 2024",
+    // datetime: "2020-03-16",
     author: {
-      name: "Michael Foster",
+      name: "יוסף סירומיאטניקוב",
       imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "https://lh3.googleusercontent.com/pw/AP1GczPnTEjq9anN2UYmw3VOK2P-blp5iho7J79SVEYqK2PI6WWssJxg0pKn6SFJIsHPrte2_gx76CuLBPAuFBJEjtSgzdvRmt178tbNS4EUm7cAlCvGBiwQ_13JhrPDG9JoQQCRsXO_2Iz8S43PCtXt7xEM=w651-h869-s-no-gm?authuser=0",
+      // "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
   // More posts...
@@ -81,15 +84,19 @@ function Blog() {
 
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-              From the blog
+          <div dir="rtl" className="text-right">
+            <h2 className="text-balance text-4xl font-semibold text-gray-900 sm:text-5xl">
+              מהבלוג שלנו
             </h2>
-            <p className="mt-2 text-lg/8 text-gray-600">
-              Learn how to grow your business with our expert advice.
+            <p className="mt-2 text-lg leading-relaxed text-gray-600">
+              הצטרפו למסעות הבלוג שלנו וגלו את החוויות הייחודיות מכל טיול
+              והמלצות למסלולים בלתי נשכחים.
             </p>
           </div>
-          <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <div
+            className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+            dir="rtl"
+          >
             {posts.map((post) => (
               <article
                 key={post.id}

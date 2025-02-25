@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Store from "./components/Store";
 import Blog from "./components/Blog";
 import BlogPage from "./components/BlogPage";
+import Error404 from "./components/Error404";
 
 function App() {
   return (
@@ -17,8 +18,7 @@ function App() {
       <Router>
         <Nav />
         <Routes>
-          {/* <Route path="*" element={<ErroePage />} />
-          <Route path="/500" element={<ServerErrorPage />} /> */}
+          <Route path="*" element={<Error404 />} />
 
           <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactMe />} />
