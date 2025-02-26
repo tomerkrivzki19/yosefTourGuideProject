@@ -810,8 +810,8 @@ function MainPage() {
                     aria-describedby={tier.id}
                     className={classNames(
                       tier.mostPopular
-                        ? "bg-indigo-600 text-white shadow-sm hover:bg-indigo-500"
-                        : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
+                        ? "bg-blue-600 text-white shadow-sm hover:bg-blue-500"
+                        : "text-blue-600 ring-1 ring-inset ring-blue-200 hover:ring-blue-300",
                       "mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     )}
                   >
@@ -915,7 +915,7 @@ function MainPage() {
             </div>
           </div>
         </div> */}
-        <div className="bg-indigo-100" dir="rtl">
+        <div className="bg-blue-100" dir="rtl">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
             <h2 className="max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
               מוכן לצאת להרפתקה? <br />
@@ -924,7 +924,7 @@ function MainPage() {
             <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:shrink-0">
               <a
                 href="#pricing"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 הזמינו סיור
               </a>

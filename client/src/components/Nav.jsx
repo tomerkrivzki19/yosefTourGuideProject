@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 
+import logoBrand from "../../public/companyLogo.png";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -67,8 +68,9 @@ function Nav() {
               <span className="sr-only">Your Company</span>
               <img
                 alt="Your Company"
-                src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
+                src={logoBrand}
+                // src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                className="h-16 w-auto "
               />
             </a>
             <button
