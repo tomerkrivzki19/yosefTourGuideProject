@@ -95,57 +95,57 @@ const tiers = [
 const faqs = [
   {
     id: 1,
-    question: "What's the best thing about Switzerland?",
+    question: "מה הייחודיות של הטיולים שאתם מציעים?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "הטיולים שלנו מתוכננים בקפידה כדי להעניק חוויה אותנטית ומעמיקה, עם מדריכים מקצועיים ויעדים ייחודיים.",
   },
   {
     id: 2,
-    question: "How can I improve my coding skills?",
+    question: "מה כלול במחיר הטיול?",
     answer:
-      "Practice is key! Start building projects, participate in coding challenges, and read code written by others to understand different approaches.",
+      "המחיר כולל לינה, ארוחות מסוימות, תחבורה, כניסה לאתרים מרכזיים וליווי של מדריך מוסמך לאורך כל הדרך.",
   },
   {
     id: 3,
-    question: "What is React?",
+    question: "האם ניתן להתאים את המסלול לפי העדפות אישיות?",
     answer:
-      "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage state efficiently.",
+      "בהחלט! אנו מציעים אפשרות להתאים את המסלול לפי רצונות המטיילים, כולל עצירות נוספות, פעילויות מיוחדות והתאמות אישיות.",
   },
   {
     id: 4,
-    question: "How does CSS Flexbox work?",
+    question: "האם הטיולים מתאימים לכל הגילאים?",
     answer:
-      "Flexbox is a layout model that allows you to design complex layouts with ease. It makes it easier to align and distribute space among items in a container.",
+      "כן! יש לנו טיולים שמתאימים למשפחות, זוגות, קבוצות ויחידים. ניתן לבחור בטיולים בדרגות קושי שונות בהתאם להעדפות האישיות.",
   },
   {
     id: 5,
-    question: "What is a REST API?",
+    question: "איך מבוצעת ההרשמה לטיול?",
     answer:
-      "A REST (Representational State Transfer) API is an architectural style for designing networked applications. It uses standard HTTP methods and is stateless, meaning each request contains all necessary information.",
+      "ההרשמה מתבצעת דרך האתר שלנו. ניתן לבחור את תאריך היציאה הרצוי, למלא את הפרטים ולבצע תשלום מאובטח.",
   },
   {
     id: 6,
-    question: "What are the differences between SQL and NoSQL databases?",
+    question: "מה קורה במקרה של ביטול?",
     answer:
-      "SQL databases are relational and use structured query language for data management. NoSQL databases are non-relational and store data in a more flexible format, such as JSON.",
+      "ניתן לבטל טיול בהתאם למדיניות הביטולים שלנו. במקרה של ביטול מראש, ניתן לקבל החזר חלקי או מלא בהתאם לזמן הביטול.",
   },
   {
     id: 7,
-    question: "What is Git?",
+    question: "האם יש צורך בניסיון קודם בטיולים מאורגנים?",
     answer:
-      "Git is a distributed version control system that helps developers manage changes to their codebase, collaborate with others, and track the history of their projects.",
+      "לא חובה! המדריכים שלנו דואגים להנחות וללוות את כל המשתתפים כך שגם מי שאין לו ניסיון קודם יוכל ליהנות מהחוויה.",
   },
   {
     id: 8,
-    question: "What is a closure in JavaScript?",
+    question: "איזו ציוד צריך להביא לטיול?",
     answer:
-      "A closure is a function that retains access to its lexical scope, even when the function is executed outside of that scope. It helps in data encapsulation and maintaining state.",
+      "הציוד משתנה בהתאם למסלול. אנו מספקים רשימת ציוד מומלצת לכל טיול כדי להבטיח שתגיעו מוכנים בצורה הטובה ביותר.",
   },
   {
     id: 9,
-    question: "How do I optimize my website for performance?",
+    question: "האם יש ביטוח בטיולים?",
     answer:
-      "Optimizing for performance includes techniques such as minimizing HTTP requests, using lazy loading, compressing images, and implementing caching strategies to speed up load times.",
+      "המחיר אינו כולל ביטוח אישי, ולכן אנו ממליצים לרכוש ביטוח נסיעות מתאים לפני היציאה לטיול.",
   },
 ];
 
@@ -606,7 +606,7 @@ function MainPage() {
         </div> */}
 
         {/* Pricing section */}
-        <div className="py-24 sm:pt-48" id="pricing">
+        {/* <div className="py-24 sm:pt-48" id="pricing" dir="rtl">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:text-center">
               <h2 className="text-base/7 font-semibold text-indigo-600">
@@ -693,12 +693,143 @@ function MainPage() {
               ))}
             </div>
           </div>
+        </div> */}
+        <div className="py-24 sm:pt-48" id="pricing" dir="rtl">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl lg:text-center">
+              <h2 className="text-base/7 font-semibold text-indigo-600">
+                מחירים
+              </h2>
+              <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
+                מסלולי טיול מותאמים אישית
+              </p>
+              <p className="mt-6 text-pretty text-lg/8 text-gray-600">
+                בחרו את מסלול הטיול שמתאים לכם ותיהנו מחוויה בלתי נשכחת עם מדריך
+                מקצועי.
+              </p>
+            </div>
+            <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+              {[
+                {
+                  id: "trip-3-days",
+                  name: "טיול של 3 ימים",
+                  description:
+                    "טיול מודרך בן שלושה ימים הכולל אתרים היסטוריים, טבע קסום וחוויות קולינריות.",
+                  price: "₪2,500",
+                  features: [
+                    "סיורים באתרים היסטוריים",
+                    "טיולי טבע ונוף",
+                    "הסעה נוחה ממקום למקום",
+                    "ארוחות מקומיות אותנטיות",
+                  ],
+                },
+                {
+                  id: "trip-5-days",
+                  name: "טיול של 5 ימים",
+                  description:
+                    "חמישה ימים מלאים של חוויות, היסטוריה ותרבות עם מדריך מקצועי.",
+                  price: "₪4,000",
+                  mostPopular: true,
+                  features: [
+                    "סיורים באתרים היסטוריים ומוזיאונים",
+                    "טיולים רגליים ונופים מרהיבים",
+                    "שיט בסירה באגם",
+                    "ארוחות אותנטיות וחוויות קולינריות",
+                  ],
+                },
+                {
+                  id: "trip-7-days",
+                  name: "טיול של 7 ימים",
+                  description:
+                    "שבוע שלם של הרפתקאות ונופים מדהימים עם מדריך אישי.",
+                  price: "₪5,800",
+                  features: [
+                    "סיורים מיוחדים במקומות נסתרים",
+                    "מפגש עם תושבים מקומיים",
+                    "חוויות קולינריות מגוונות",
+                    "פעילויות אקסטרים כמו רכיבה על גמלים ושיט קיאקים",
+                  ],
+                },
+              ].map((tier, tierIdx) => (
+                <div
+                  key={tier.id}
+                  className={classNames(
+                    tier.mostPopular ? "lg:z-10 lg:rounded-b-none" : "lg:mt-8",
+                    tierIdx === 0 ? "lg:rounded-r-none" : "",
+                    tierIdx === 2 ? "lg:rounded-l-none" : "",
+                    "flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10"
+                  )}
+                >
+                  <div>
+                    <div className="flex items-center justify-between gap-x-4">
+                      <h3
+                        id={tier.id}
+                        className={classNames(
+                          tier.mostPopular
+                            ? "text-indigo-600"
+                            : "text-gray-900",
+                          "text-lg/8 font-semibold"
+                        )}
+                      >
+                        {tier.name}
+                      </h3>
+                      {tier.mostPopular ? (
+                        <p className="rounded-full bg-indigo-600/10 px-2.5 py-1 text-xs/5 font-semibold text-indigo-600">
+                          המסלול הפופולרי ביותר
+                        </p>
+                      ) : null}
+                    </div>
+                    <p className="mt-4 text-sm/6 text-gray-600">
+                      {tier.description}
+                    </p>
+                    <p className="mt-6 flex items-baseline gap-x-1">
+                      <span className="text-4xl font-semibold tracking-tight text-gray-900">
+                        {tier.price}
+                      </span>
+                      {/* <span className="text-sm/6 font-semibold text-gray-600">
+                        ₪
+                      </span> */}
+                    </p>
+                    <ul
+                      role="list"
+                      className="mt-8 space-y-3 text-sm/6 text-gray-600"
+                    >
+                      {tier.features.map((feature) => (
+                        <li key={feature} className="flex gap-x-3">
+                          <CheckIcon
+                            aria-hidden="true"
+                            className="h-6 w-5 flex-none text-indigo-600"
+                          />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <a
+                    href="#contact"
+                    aria-describedby={tier.id}
+                    className={classNames(
+                      tier.mostPopular
+                        ? "bg-indigo-600 text-white shadow-sm hover:bg-indigo-500"
+                        : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
+                      "mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    )}
+                  >
+                    הזמן עכשיו
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* FAQs */}
-        <div className="mx-auto max-w-2xl px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
+        <div
+          className="mx-auto max-w-2xl px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32"
+          dir="rtl"
+        >
           <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-            Frequently asked questions
+            כל מה שצריך לדעת לפני היציאה לטיול
           </h2>
           <dl className="mt-20 divide-y divide-gray-900/10">
             {faqs.map((faq) => (
