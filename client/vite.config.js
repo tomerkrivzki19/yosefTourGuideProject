@@ -8,9 +8,5 @@ export default defineConfig({
   server: {
     host: true, // This makes the server accessible on your network
     port: 5173, // Keep the default port (or change it if needed)
-    historyApiFallback: true, // Ensures routing works correctly during development
-  },
-  build: {
-    outDir: "dist",
   },
 });
