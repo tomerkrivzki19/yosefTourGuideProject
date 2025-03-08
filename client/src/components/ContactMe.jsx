@@ -405,7 +405,7 @@ export default function ContactMe() {
       </div>
 
       {/* contact me gallery  */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+      {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
@@ -448,49 +448,27 @@ export default function ContactMe() {
             alt=""
           />
         </div>
-        {/*         
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg"
-            alt=""
-          />
-        </div> */}
+      </div> */}
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        {[
+          "https://lh3.googleusercontent.com/pw/AP1GczME_NBU5ZtnzUVNdjwYHl7IVrdvAxYCtcaQfhZOq2Dqwcy7KAcgY8jkq0cyVJHEEDfS7afRqpQnVjAhtfJ3Ne4YewB1RjRqaf7JmubwMH-12W11qX86E9lf-yH2uROWKiQhc-ca5xEvMu3XSAGUzinX=w651-h869-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPZrrNsRCqrvoevn8gFjsljTpu2k3BUSHjE6YA59RVF-giOznkU4gVRHzgoYfU2g8IfeqM4pjkdMTzg8727NLbpCSkihYQyVVOAGCxIP-Wd4Gih9O4TP_N4PE6n5NOVDBPsrcRBXlpJqWh7OwW9aigYLg=w651-h869-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOy_mavFqndJ_Yt4gP-DxfJudrDkMa9VRpjRJfd9M8my2U4w83sIWY709ra9Yn3ykcdAAbjkfXaCI87IQsWOOWOk2etb3SBFpKRmhlIzujkeGXwyGA0sMG2UeO4Ir-1t2yWlDn0J8FkKscD3mYgMnrWKA=w1159-h869-s-no-gm?authuser=0",
+          "https://images.pexels.com/photos/1840421/pexels-photo-1840421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://lh3.googleusercontent.com/pw/AP1GczN8bQn6R29KQoB_ayPIZLABS8EoJkC00u_yUObb7oh_5swatyCqrJwTHbHjVv-D8Q2_7ycp1ebusfYdWXosXTeiuDEGerSbqWrDKKBGqx2XAxIpQF-8IGUjeCMSXYGyLVdhvUL_vkTV90Jy__guE6etGg=w651-h869-s-no-gm?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM2hGW5O-gE_iMXyH9U6xhz8C1poBQMXmh_D9b90EJEFyZ1EAUhh9eQOJY4awU8mM-EwOyzoxsIYC_OgUa4FOIyJmZ34t_uA1uuWA7Lm-kth145JMt_oNaedvsMmsRPY9WGznay6_M-fFJIcUaqfPSH=w579-h869-s-no-gm?authuser=0",
+        ].map((src, index) => (
+          <div
+            key={index}
+            className="overflow-hidden rounded-lg h-64 md:h-80 lg:h-96"
+          >
+            <img
+              className="w-full h-full object-cover rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
+              src={src}
+              alt=""
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

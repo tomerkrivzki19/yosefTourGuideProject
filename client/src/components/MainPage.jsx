@@ -980,70 +980,100 @@ function MainPage() {
                 </div> */}
               </div>
             </div>
+            {/* <div className="pt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczNK-lpcxlas7YjDH4PcqfDEjS9HZDxHxYn3hzBaw4OOo-sFxp4gMdyi5iNbfPUvYo8R7btePwlwbynL79t0W6EpDEhHnII4XFT5rNzGBzV6osuFUkJl9xYIeB-ekltY5QR9S5V6UIgoREf80I7mdfJ9Pw=w949-h869-s-no-gm?authuser=0"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="h-[300px] w-full max-w-full rounded-lg"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczM3K859zm2fuv_fODvjhBy_ZjWdBt0HWtA8m8fIfT0dzIBLUT8IXNrcWLJKFf8VDENn8WBF6YdcPcvS8YMzAaKyO3Rnh364nmKa-1gbfdSXAhDJLzxTtmgaLPcq-rbh8devrAE3q60OpYX9_wcyXd2p6w=w651-h869-s-no-gm?authuser=0"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczME_NBU5ZtnzUVNdjwYHl7IVrdvAxYCtcaQfhZOq2Dqwcy7KAcgY8jkq0cyVJHEEDfS7afRqpQnVjAhtfJ3Ne4YewB1RjRqaf7JmubwMH-12W11qX86E9lf-yH2uROWKiQhc-ca5xEvMu3XSAGUzinX=w651-h869-s-no-gm?authuser=0"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczPZrrNsRCqrvoevn8gFjsljTpu2k3BUSHjE6YA59RVF-giOznkU4gVRHzgoYfU2g8IfeqM4pjkdMTzg8727NLbpCSkihYQyVVOAGCxIP-Wd4Gih9O4TP_N4PE6n5NOVDBPsrcRBXlpJqWh7OwW9aigYLg=w651-h869-s-no-gm?authuser=0"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczOy_mavFqndJ_Yt4gP-DxfJudrDkMa9VRpjRJfd9M8my2U4w83sIWY709ra9Yn3ykcdAAbjkfXaCI87IQsWOOWOk2etb3SBFpKRmhlIzujkeGXwyGA0sMG2UeO4Ir-1t2yWlDn0J8FkKscD3mYgMnrWKA=w1159-h869-s-no-gm?authuser=0"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src="https://images.pexels.com/photos/1840421/pexels-photo-1840421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczN8bQn6R29KQoB_ayPIZLABS8EoJkC00u_yUObb7oh_5swatyCqrJwTHbHjVv-D8Q2_7ycp1ebusfYdWXosXTeiuDEGerSbqWrDKKBGqx2XAxIpQF-8IGUjeCMSXYGyLVdhvUL_vkTV90Jy__guE6etGg=w651-h869-s-no-gm?authuser=0"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczM2hGW5O-gE_iMXyH9U6xhz8C1poBQMXmh_D9b90EJEFyZ1EAUhh9eQOJY4awU8mM-EwOyzoxsIYC_OgUa4FOIyJmZ34t_uA1uuWA7Lm-kth145JMt_oNaedvsMmsRPY9WGznay6_M-fFJIcUaqfPSH=w579-h869-s-no-gm?authuser=0"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczOd5QUvpPCWzhNqj1i74bDIZ2bD6jA1joaapopVIjxyubvjdQfHSvOhlHGGaKIZOEm2VAFj5IdWOAubx84l8NIeZkINM0whyVAk4-gnqA5i66oh6zmxh35BipANVm-g_8cOcVyfbud4ifAH0P02wUlQ=w651-h869-s-no-gm?authuser=0"
+                  // src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
+                  alt=""
+                />
+              </div>
+            </div> */}
             <div className="pt-8 grid grid-cols-2 md:grid-cols-3 gap-4">
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-lg"
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
-                  alt=""
-                />
-              </div>
+              {[
+                "https://lh3.googleusercontent.com/pw/AP1GczNK-lpcxlas7YjDH4PcqfDEjS9HZDxHxYn3hzBaw4OOo-sFxp4gMdyi5iNbfPUvYo8R7btePwlwbynL79t0W6EpDEhHnII4XFT5rNzGBzV6osuFUkJl9xYIeB-ekltY5QR9S5V6UIgoREf80I7mdfJ9Pw=w949-h869-s-no-gm?authuser=0",
+                "https://lh3.googleusercontent.com/pw/AP1GczM3K859zm2fuv_fODvjhBy_ZjWdBt0HWtA8m8fIfT0dzIBLUT8IXNrcWLJKFf8VDENn8WBF6YdcPcvS8YMzAaKyO3Rnh364nmKa-1gbfdSXAhDJLzxTtmgaLPcq-rbh8devrAE3q60OpYX9_wcyXd2p6w=w651-h869-s-no-gm?authuser=0",
+                "https://lh3.googleusercontent.com/pw/AP1GczME_NBU5ZtnzUVNdjwYHl7IVrdvAxYCtcaQfhZOq2Dqwcy7KAcgY8jkq0cyVJHEEDfS7afRqpQnVjAhtfJ3Ne4YewB1RjRqaf7JmubwMH-12W11qX86E9lf-yH2uROWKiQhc-ca5xEvMu3XSAGUzinX=w651-h869-s-no-gm?authuser=0",
+                "https://lh3.googleusercontent.com/pw/AP1GczPZrrNsRCqrvoevn8gFjsljTpu2k3BUSHjE6YA59RVF-giOznkU4gVRHzgoYfU2g8IfeqM4pjkdMTzg8727NLbpCSkihYQyVVOAGCxIP-Wd4Gih9O4TP_N4PE6n5NOVDBPsrcRBXlpJqWh7OwW9aigYLg=w651-h869-s-no-gm?authuser=0",
+                "https://lh3.googleusercontent.com/pw/AP1GczOy_mavFqndJ_Yt4gP-DxfJudrDkMa9VRpjRJfd9M8my2U4w83sIWY709ra9Yn3ykcdAAbjkfXaCI87IQsWOOWOk2etb3SBFpKRmhlIzujkeGXwyGA0sMG2UeO4Ir-1t2yWlDn0J8FkKscD3mYgMnrWKA=w1159-h869-s-no-gm?authuser=0",
+                "https://images.pexels.com/photos/1840421/pexels-photo-1840421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "https://lh3.googleusercontent.com/pw/AP1GczN8bQn6R29KQoB_ayPIZLABS8EoJkC00u_yUObb7oh_5swatyCqrJwTHbHjVv-D8Q2_7ycp1ebusfYdWXosXTeiuDEGerSbqWrDKKBGqx2XAxIpQF-8IGUjeCMSXYGyLVdhvUL_vkTV90Jy__guE6etGg=w651-h869-s-no-gm?authuser=0",
+                "https://lh3.googleusercontent.com/pw/AP1GczM2hGW5O-gE_iMXyH9U6xhz8C1poBQMXmh_D9b90EJEFyZ1EAUhh9eQOJY4awU8mM-EwOyzoxsIYC_OgUa4FOIyJmZ34t_uA1uuWA7Lm-kth145JMt_oNaedvsMmsRPY9WGznay6_M-fFJIcUaqfPSH=w579-h869-s-no-gm?authuser=0",
+                "https://lh3.googleusercontent.com/pw/AP1GczOd5QUvpPCWzhNqj1i74bDIZ2bD6jA1joaapopVIjxyubvjdQfHSvOhlHGGaKIZOEm2VAFj5IdWOAubx84l8NIeZkINM0whyVAk4-gnqA5i66oh6zmxh35BipANVm-g_8cOcVyfbud4ifAH0P02wUlQ=w651-h869-s-no-gm?authuser=0",
+              ].map((src, index) => (
+                <div key={index} className="w-full h-[300px]">
+                  <img
+                    className="w-full h-full object-cover rounded-lg"
+                    src={src}
+                    alt=""
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>
